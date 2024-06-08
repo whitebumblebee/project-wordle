@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { sample } from '../../utils';
+import { sample, range } from '../../utils';
 import { WORDS } from '../../data';
+import { NUM_OF_GUESSES_ALLOWED } from '../../constants';
 
 import GuessInput from '../GuessInput/GuessInput';
 import GuessItems from '../GuessItems/GuessItems';
